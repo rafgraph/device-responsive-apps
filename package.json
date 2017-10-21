@@ -5,11 +5,14 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
-    "deploy": "npm run clean & npm run build",
+    "build": "yarn clean && cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "start": "cross-env NODE_ENV=development node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafrex/device-responsive-apps.git"
+  },
+  "author": "Rafael Pedicini <code@rafrex.com>",
   "dependencies": {
     "normalize.css": "3.0.3",
     "react": "15.4.2",

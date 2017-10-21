@@ -213,7 +213,7 @@ First let's define some abstract mouse, touch, and keyboard states
 ---
 #### wahhhh?
 ---
-Learn the edge cases or make something better
+Accept the edge cases or make something better
 ---
 React Interactive state machine
 
@@ -287,7 +287,7 @@ React Interactive focus states
             {
               loc: [0, 4],
               title: 'RI State Object',
-              note: 'This is the actual interal state object used by RI',
+              note: 'This is the actual internal state object used by RI',
             },
           ]}
         />

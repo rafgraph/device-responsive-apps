@@ -1,0 +1,29 @@
+import React from 'react';
+import Interactive from 'react-interactive';
+import { Link } from 'react-router-dom';
+
+const InteractiveLink = props => (
+  <Interactive
+    as={
+      (props.href && 'a') ||
+      (props.to && Link) ||
+      'span'
+    }
+    touchActiveTapOnly
+    {...props}
+  >
+    {props.children}
+  </Interactive>
+);
+
+InteractiveLink.defaultProps = {
+  hover: { color: 'green' },
+  active: 'hover',
+  focusFromTab: { outline: '2px green' },
+};
+
+export default InteractiveLink;
+
+
+<InteractiveLink to="/some-path" />
+<InteractiveLink href="http://rafrex.com" />

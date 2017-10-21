@@ -1,0 +1,42 @@
+import Interactive from 'react-interactive';
+// ...
+<Interactive
+  as="div"
+  as={Link}
+
+  hover={{ color: 'green' }}
+  hover={{
+    style: { color: 'green' },
+    className: 'my-hover-class',
+  }}
+
+  active={{ color: 'blue' }}
+  // OR
+  hoverActive={{ color: 'red' }}
+  touchActive={{ color: 'blue' }}
+  keyActive="touchActive"
+
+  focus={{ outline: '2px green' }}
+  // OR
+  focusFromTab={{ outline: '2px orange' }}
+  focusFromMouse={{ outline: '2px green' }}
+  focusFromTouch={{ outline: '2px blue' }}
+
+  onStateChange={this.handleChange}
+  onClick={this.handleClick}
+  onLongPress={this.handleLongPress}
+
+  style={{ fontSize: '16px', color: 'black' }}
+  className="my-interactive-component"
+>
+  This is an interactive and focusable div
+</Interactive>
+
+
+handleChange({ prevState, nextState }) {
+  ...
+}
+
+handleClick(event, clickType) {
+  ...
+}

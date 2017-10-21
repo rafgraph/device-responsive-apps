@@ -1,0 +1,6 @@
+
+deviceType: 'mouseOnly' / 'touchOnly' / 'hybrid',
+passiveEvents: true / false,
+hasMouse: true / false,
+hasTouch: true / false,
+primaryInput: 'mouse' / 'touch',

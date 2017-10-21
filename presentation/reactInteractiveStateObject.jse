@@ -1,0 +1,4 @@
+{
+  iState: 'normal' / 'hover' / 'hoverActive' / 'touchActive' / 'keyActive',
+  focus: false / 'tab' / 'mouse' / 'touch',
+}

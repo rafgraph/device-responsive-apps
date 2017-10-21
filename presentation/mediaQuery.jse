@@ -1,0 +1,6 @@
+// react-media by @mjackson
+<Media query="(max-width: 550px)">
+  {small => (
+    // render...
+  )}
+</Media>

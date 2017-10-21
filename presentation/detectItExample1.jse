@@ -1,0 +1,9 @@
+import detectIt from 'detect-it';
+...
+render() {
+  return detectIt.primaryInput === 'touch' ? (
+    <ImagePageTouch image={image} />
+  ) : (
+    <ImagePageMouse image={image} />
+  );
+}

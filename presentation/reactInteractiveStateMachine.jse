@@ -1,0 +1,24 @@
+normal:
+!mouseOn &&
+!buttonDown &&
+!touchDown &&
+!focusKeyDown
+
+hover:
+mouseOn &&
+!buttonDown &&
+!touchDown &&
+!focusKeyDown
+
+hoverActive:
+mouseOn &&
+buttonDown &&
+!touchDown &&
+!focusKeyDown
+
+keyActive:
+focusKeyDown &&
+!touchDown
+
+touchActive:
+touchDown

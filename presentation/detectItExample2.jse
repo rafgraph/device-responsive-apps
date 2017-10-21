@@ -1,0 +1,9 @@
+import detectIt from 'detect-it';
+...
+render() {
+  const margin =
+    detectIt.primaryInput === 'touch' ? 0 : 30
+  return (
+    <PortfolioPage margin={margin} />
+  );
+}

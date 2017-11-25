@@ -176,7 +176,7 @@ And what about styling touch interactions?
 
 ...maybe
 ---
-Let's dig into the interative CSS state machine
+Let's dig into the interactive CSS state machine
 
 \`normal\`
 

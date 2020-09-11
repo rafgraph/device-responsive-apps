@@ -41,11 +41,11 @@ export default class Presentation extends React.Component {
           </Heading>
           <Heading size={4} margin="100px 0 0" textColor="tertiary" fit>
             Rafael Pedicini /{' '}
-            <Link target="new" href="https://github.com/rafrex">
-              @rafrex
+            <Link target="new" href="https://github.com/rafgraph">
+              @rafgraph
             </Link>{' '}
             on GitHub /{' '}
-            <Link href="mailto:rafael@rafrex.com">rafael@rafrex.com</Link>
+            <Link href="mailto:rafael@rafgraph.dev">rafael@rafgraph.dev</Link>
           </Heading>
         </Slide>
         {MarkdownSlides`
@@ -111,7 +111,7 @@ If only...
           ]}
         />
         {MarkdownSlides`
-Demo [Detect It](http://detect-it.rafrex.com/)
+Demo [Detect It](https://detect-it.rafgraph.dev/)
 ---
 **Device Examples**
 - Large \`mouseOnly\` (macbook - normal window)
@@ -403,25 +403,25 @@ React Interactive focus states
           ]}
         />
         {MarkdownSlides`
-Demo [React Interactive](http://react-interactive.rafrex.com/)
+Demo [React Interactive](https://react-interactive.rafgraph.dev/)
 ---
-Demo [Photography Website](http://rafael.photo/)
+Demo [Photography Website](https://rafael.photo/)
 ---
 Hiring?
         `}
         <Slide bgColor="primary">
           <Text textColor="tertiary" fit>
-            <Link target="new" href="https://github.com/rafrex/detect-it">
+            <Link target="new" href="https://github.com/rafgraph/detect-it">
               Detect It
             </Link>{' '}
             /{' '}
             <Link
               target="new"
-              href="https://github.com/rafrex/react-interactive"
+              href="https://github.com/rafgraph/react-interactive"
             >
               React Interactive
             </Link>{' '}
-            / <Link href="mailto:rafael@rafrex.com">rafael@rafrex.com</Link>
+            / <Link href="mailto:rafael@rafgraph.dev">rafael@rafgraph.dev</Link>
           </Text>
         </Slide>
       </Deck>

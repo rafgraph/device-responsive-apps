@@ -1,10 +1,10 @@
 # Device Responsive Apps Presentation
 
-[http://device-responsive-apps.rafrex.com](http://device-responsive-apps.rafrex.com)
+[https://device-responsive-apps.rafgraph.dev](https://device-responsive-apps.rafgraph.dev)
 
-[Detect It](https://github.com/rafrex/detect-it)
+[Detect It](https://github.com/rafgraph/detect-it)
 
-[React Interactive](https://github.com/rafrex/react-interactive)
+[React Interactive](https://github.com/rafgraph/react-interactive)
 
 ---
 Presentation given at [SF ReactJs Meetup](https://www.meetup.com/ReactJS-San-Francisco/events/241022927/) at Lyft 10-19-2017

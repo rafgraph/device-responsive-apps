@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/device-responsive-apps.git"
+    "url": "git+https://github.com/rafgraph/device-responsive-apps.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Rafael Pedicini <rafael@rafgraph.dev>",
   "dependencies": {
     "normalize.css": "3.0.3",
     "react": "15.4.2",
